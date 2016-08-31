@@ -43,7 +43,6 @@ void loop() {
       i = 0;
     }
     display.clearDisplay();
-    display.setFontMode(MODE_H);
     switch (i) {
       case 0: {
           display.setColor(0, 255, 0);
