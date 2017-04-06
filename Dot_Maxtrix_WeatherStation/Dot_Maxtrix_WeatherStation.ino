@@ -6,7 +6,7 @@ uint8_t Addr[MatrixPix_X][MatrixPix_Y] = {  //2x2
   { 64, 63, 62},
   { 61, 60, 59}
 };
-Matrix display = Matrix(Addr);
+Matrix display = Matrix(Addr, TYPE_COLOR);
 
 void setup() {
   Serial.begin(115200); // See the connection status in Serial Monitor
